@@ -1,0 +1,39 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(221, 198, 121);
+}
+
+.wrapper span{
+    margin: 30px;
+    font-size: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    height: 50px;
+    border: 5px solid black;
+    padding: 15px;
+}
+
+.text-number{
+    width: 500px;
+    height: 50px;
+    font-size: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.submit{
+    width: 100px;
+    height: 50px;
+}
